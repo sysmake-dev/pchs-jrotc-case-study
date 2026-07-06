@@ -1,0 +1,191 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+/* Header */
+
+.header {
+  border-bottom: 2px solid black;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+}
+
+.nav__toggle {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  background: none;
+}
+
+/* Hero */
+
+#hero {
+  text-align: center;
+  height: 80vh;
+}
+
+.hero__container {
+  margin-top: 4rem;
+}
+
+.hero__buttons {
+  margin-top: 1rem;
+}
+
+.hero__buttons button {
+  margin: 0.25rem;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+}
+
+/* About / Overview */
+
+#overview {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#overview img {
+  width: 100%;
+}
+
+#overview button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+  width: 100%;
+}
+
+/* Announcements */
+
+#announcements {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.announcement__item {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#announcements button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+  width: 100%;
+}
+
+/* Events */
+
+#events {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.event__item {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#events button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+  width: 100%;
+}
+
+/* Special Teams */
+
+#teams {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#teams img {
+  width: 100%;
+}
+
+#teams button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+  width: 100%;
+}
+
+/* Quick Links */
+
+#quick-links {
+  border: 2px solid black;
+}
+
+.link {
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Contact */
+
+#contact {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.contact__form input,
+.contact__form select,
+.contact__form textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+
+.contact__form button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid black;
+  background: none;
+}
+
+/* Footer */
+
+footer {
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 2rem 1rem;
+}
