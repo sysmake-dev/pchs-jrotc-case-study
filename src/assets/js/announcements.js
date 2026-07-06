@@ -1,5 +1,5 @@
 async function loadAnnouncements() {
-  const response = await fetch("../../content/announcements.json");
+  const response = await fetch("../content/announcements.json");
   console.log(response.status);
   console.log(response.url);
   const text = await response.text();
