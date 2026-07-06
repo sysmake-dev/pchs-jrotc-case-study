@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="English" />
+    <meta
+      name="description"
+      content="The Palmetto Coast High Leadership Academy, where we build leadership, discipline, and responsibility to motivate young people to be better citizens. This is a case study. This is not a real school or JROTC program."
+    />
+    <title>Palmetto Coast High Leadership Academy</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav__container">
+        <div class="logo">
+          <a href="index.html">PCHS Leadership Academy</a>
+        </div>
+
+        <button
+          class="nav__toggle"
+          aria-expanded="false"
+          aria-label="Toggle menu"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="nav nav__panel" aria-label="Primary">
+          <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/leadership.html">Leadership</a></li>
+            <li><a href="pages/teams.html">Teams</a></li>
+            <li><a href="pages/announcements.html">Announcements</a></li>
+            <li><a href="pages/events.html">Events</a></li>
+            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="pages/resources.html">Resources</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main data-page="home">
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="container hero__container">
+          <h1>Palmetto Coast Leadership Academy</h1>
+          <p>
+            Building leadership, discipline, and responsibility to motivate
+            young people to be better citizens.
+          </p>
+          <div class="hero__buttons">
+            <a href="pages/about.html">
+              <button class="primary-btn">Learn More →</button>
+            </a>
+            <a href="#announcements"
+              ><button class="secondary-btn">View Announcements</button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- About / Program Overview Section -->
+      <section id="overview">
+        <div class="container overview__container">
+          <div class="overview__img">
+            <img
+              src="assets/images/about-img.jpg"
+              alt="About image description."
+            />
+          </div>
+          <div class="overview__content">
+            <h2>Our Brigade</h2>
+            <p>
+              The Palmetto Coast High School Leadership Academy provides
+              students with opportunities to develop leadership skills, build
+              discipline, and take on real responsibility within a structured
+              environment.
+            </p>
+            <p>
+              Cadets participate in training, events, academics, and team-based
+              activities that prepare them for future success.
+            </p>
+            <a href="pages/about.html"><button>Learn More</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Announcements Section -->
+      <section id="announcements">
+        <div class="container">
+          <h2>Latest Announcements</h2>
+
+          <div class="item__grid" id="announcement-list"></div>
+          <div class="view-all">
+            <a href="pages/announcements.html"><button>View All</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Upcoming Events Section -->
+      <section id="events">
+        <div class="container">
+          <h2>Upcoming Events</h2>
+
+          <div class="item__grid" id="event-list"></div>
+          <div class="view-all">
+            <a href="pages/events.html"><button>View All</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Special Teams Section -->
+      <section id="teams">
+        <div class="container teams__container">
+          <div class="teams__img">
+            <img
+              src="assets/images/teams-img.jpg"
+              alt="Teams image description."
+            />
+          </div>
+          <div class="teams__content">
+            <h2>Special Teams</h2>
+            <p>
+              Our leadership academy offers multiple teams that allow students
+              to develop specialized skills, compete with other schools, make
+              new friends, and learn life skills that will carry outside of the
+              program.
+            </p>
+            <p>
+              From handling an air rifle to getting certified in drone piloting,
+              Palmetto Coast High Leadership Academy offers a variety of
+              opportunities for cadets to succeed.
+            </p>
+            <a href="pages/teams.html"><button>Learn More</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Links Section -->
+      <section id="quick-links">
+        <div class="container">
+          <h2>Quick Links</h2>
+
+          <a href="pages/leadership.html"><div class="link">Leadership</div></a>
+          <a href="pages/gallery.html"><div class="link">Gallery</div></a>
+          <a href="pages/resources.html"><div class="link">Resources</div></a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>
+            If you have any inquiries about the Palmetto Coast High Leadership
+            Academy, you may fill out the form below or email us directly at
+            <a href="mailto:jrotc@pchs.edu">jrotc@pchs.edu</a>.
+          </p>
+          <form class="contact__form">
+            <input type="text" placeholder="Name" required />
+
+            <input type="email" placeholder="Email" required />
+
+            <textarea placeholder="Message" required></textarea>
+
+            <div class="contact__form-submit">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>Copyright &copy; 2026 Palmetto Coast Leadership Academy</p>
+      </footer>
+    </main>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/announcements.js"></script>
+    <script src="assets/js/events.js"></script>
+  </body>
+</html>
