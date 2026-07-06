@@ -2,8 +2,8 @@ async function loadAnnouncements() {
   const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/announcements.json");
   console.log(response.status);
   console.log(response.url);
-  const text = await response.text();
-  console.log(text);
+  const announcements = await response.json();
+  console.log(announcements);
 
   const announcementList = document.getElementById("announcement-list");
 
