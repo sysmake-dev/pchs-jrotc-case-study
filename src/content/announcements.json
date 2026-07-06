@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Veterans Day Parade",
+    "date": "2026-11-11",
+    "summary": "Cadets participating in the Veterans Day Parade must report to the school by 7:00 AM in Room 26 in complete service uniform. Transportation and event details have been posted.",
+    "current": true
+  },
+  {
+    "id": 2,
+    "title": "Uniform Inspection",
+    "date": "2026-11-01",
+    "summary": "This Friday, all cadets should ensure their uniforms are clean, pressed, and properly assembled for this week's inspection. Leadership staff will provide assistance during morning preparation.",
+    "current": true
+  },
+  {
+    "id": 3,
+    "title": "JLAB Team Advances to Regional",
+    "date": "2026-10-29",
+    "summary": "Congratulations to our JLAB team for qualifying for the regional round of competition. We are proud of their hard work and dedication to academic excellence and teamwork.",
+    "current": true
+  },
+  {
+    "id": 4,
+    "title": "Community Service Project Results",
+    "date": "2026-09-28",
+    "summary": "Cadets volunteered throughout the local community, contributing over 180 combined service hours while supporting neighborhood improvement efforts.",
+    "current": false
+  },
+  {
+    "id": 5,
+    "title": "Uniform Distribution Week Complete",
+    "date": "2026-08-25",
+    "summary": "Initial uniform issue has been completed for all second-year cadets. Any remaining sizing adjustments can be coordinated with the supply staff.",
+    "current": false
+  },
+  {
+    "id": 6,
+    "title": "Battalion Orientation Successfully Completed",
+    "date": "2026-06-18",
+    "summary": "The battalion welcomed new cadets during this year's orientation. Cadets met this year's cadet leadership, learned about their instructors and the program expectations, and received introductory information for the school year.",
+    "current": false
+  }
+]
