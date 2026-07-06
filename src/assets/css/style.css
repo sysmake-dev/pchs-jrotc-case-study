@@ -420,7 +420,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 .hero__container {
@@ -475,6 +475,10 @@ p {
 
 /* Desktops and larger screens */
 @media (min-width: 801px) {
+  #hero__about {
+    height: 90vh;
+  }
+
   .hero__buttons button {
     width: 60%;
   }
@@ -860,7 +864,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/about-bg.jpg");
-  height: 65vh;
+  height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -884,7 +888,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/leadership-bg.jpg");
-  height: 65vh;
+  height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -908,7 +912,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/teams-bg.jpg");
-  height: 65vh;
+  height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -940,7 +944,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/gallery-bg.jpg");
-  height: 65vh;
+  height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
