@@ -1,6 +1,9 @@
 async function loadAnnouncements() {
   const response = await fetch("../../content/announcements.json");
+  console.log(response.status);
+  console.log(response.url);
   const announcements = await response.json();
+  console.log(announcements);
 
   const announcementList = document.getElementById("announcement-list");
 
