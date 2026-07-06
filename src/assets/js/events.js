@@ -1,5 +1,5 @@
 async function loadEvents() {
-  const response = await fetch("../../content/events.json");
+  const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/events.json");
   const events = await response.json();
 
   const eventList = document.getElementById("event-list");
