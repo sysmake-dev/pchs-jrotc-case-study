@@ -860,12 +860,19 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/about-bg.jpg");
-  height: 55vh;
+  height: 65vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-neutral);
+}
+
+/* Desktops and larger screens */
+@media (min-width: 801px) {
+  #hero__about {
+    height: 55vh;
+  }
 }
 
 /* ================================
@@ -877,12 +884,19 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/leadership-bg.jpg");
-  height: 55vh;
+  height: 65vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-neutral);
+}
+
+/* Desktops and larger screens */
+@media (min-width: 801px) {
+  #hero__leadership {
+    height: 55vh;
+  }
 }
 
 /* ================================
@@ -894,12 +908,19 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/teams-bg.jpg");
-  height: 55vh;
+  height: 65vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-neutral);
+}
+
+/* Desktops and larger screens */
+@media (min-width: 801px) {
+  #hero__teams {
+    height: 55vh;
+  }
 }
 
 /* ================================
@@ -919,7 +940,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/gallery-bg.jpg");
-  height: 55vh;
+  height: 65vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -1023,6 +1044,10 @@ footer {
 
 /* Desktops */
 @media (min-width: 1024px) {
+  #hero__gallery {
+    height: 55vh;
+  }
+
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
   }
