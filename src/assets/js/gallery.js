@@ -1,7 +1,7 @@
 const PAGE_SIZE = 6;
 
 async function loadGallery() {
-  const response = await fetch("../../content/gallery.json");
+  const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/gallery.json");
   const gallery = await response.json();
 
   const categories = [
