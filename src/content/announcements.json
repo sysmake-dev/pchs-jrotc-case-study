@@ -35,6 +35,12 @@
       "date": "2026-06-18",
       "summary": "The battalion welcomed new cadets during this year's orientation. Cadets met this year's cadet leadership, learned about their instructors and the program expectations, and received introductory information for the school year.",
       "current": false
+    },
+    {
+      "title": "Test Announcement",
+      "date": "2026-07-07",
+      "summary": "This is a test :3",
+      "current": true
     }
   ]
 }
