@@ -13,26 +13,32 @@ collections:
   - name: announcements
     label: Announcements
 
-    fields:
-  - label: Announcements
-    name: ""
-    widget: list
+    files:
+      - name: announcements
+        label: Announcements
 
-    summary: "{{fields.title}}"
+        file: src/content/announcements.json
 
-    fields:
-      - label: Title
-        name: title
-        widget: string
+        fields:
+          - label: Announcements
+            name: announcements
+            widget: list
 
-      - label: Date
-        name: date
-        widget: string
+            summary: "{{fields.title}}"
 
-      - label: Summary
-        name: summary
-        widget: text
+            fields:
+              - label: Title
+                name: title
+                widget: string
 
-      - label: Current
-        name: current
-        widget: boolean
+              - label: Date
+                name: date
+                widget: string
+
+              - label: Summary
+                name: summary
+                widget: text
+
+              - label: Current
+                name: current
+                widget: boolean
