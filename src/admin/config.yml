@@ -17,9 +17,30 @@ collections:
       - label: Announcements
         name: announcements
 
-        file: ../content/announcements.json
+        file: src/content/announcements.json
 
         fields:
           - label: Announcements
-            name: items
+            name: announcements
             widget: list
+
+            summary: "{{fields.title}}"
+
+            fields:
+              - label: Title
+                name: title
+                widget: string
+
+              - label: Date
+                name: date
+                widget: datetime
+                format: "YYYY-MM-DD"
+                time_format: false
+
+              - label: Summary
+                name: summary
+                widget: text
+
+              - label: Current
+                name: current
+                widget: boolean
