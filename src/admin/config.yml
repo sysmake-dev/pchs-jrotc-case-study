@@ -18,7 +18,7 @@ collections:
       - label: "Announcements"
         name: "announcements"
 
-        file: "content/announcements.json"
+        file: "https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/announcements.json"
 
         fields:
           - label: "Announcements"
