@@ -1,7 +1,7 @@
 backend:
   name: github
 
-  repo: sysmake-dev/pchs-jrotc-case-study
+  repo: https://github.com/sysmake-dev/pchs-jrotc-case-study
   branch: main
 
   base_url: https://github-oauth.sysmake.workers.dev
