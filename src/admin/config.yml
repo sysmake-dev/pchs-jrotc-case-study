@@ -17,7 +17,7 @@ collections:
       - label: Announcements
         name: announcements
 
-        file: src/content/announcements.json
+        file: ../announcements.json
 
         fields:
           - label: Announcements
