@@ -1,26 +1,25 @@
 backend:
   name: github
-
-  repo: "https://github.com/sysmake-dev/pchs-jrotc-case-study"
+  repo: sysmake-dev/pchs-jrotc-case-study
   branch: main
 
-  base_url: "https://github-oauth.sysmake.workers.dev"
+  base_url: https://github-oauth.sysmake.workers.dev
   auth_endpoint: auth
 
-media_folder: "src/assets/images/uploads"
-public_folder: "/src/assets/images/uploads"
+media_folder: src/assets/images/uploads
+public_folder: /src/assets/images/uploads
 
 collections:
-  - name: "announcements"
-    label: "Announcements"
+  - name: announcements
+    label: Announcements
 
     files:
-      - label: "Announcements"
-        name: "announcements"
+      - label: Announcements
+        name: announcements
 
-        file: "https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/announcements.json"
+        file: src/content/announcements.json
 
         fields:
-          - label: "Announcements"
-            name: "items"
-            widget: "list"
+          - label: Announcements
+            name: items
+            widget: list
