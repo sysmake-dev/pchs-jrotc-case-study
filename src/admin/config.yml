@@ -104,3 +104,47 @@ collections:
               - label: File
                 name: file
                 widget: string
+
+  - name: leadership
+    label: Leadership
+
+    files:
+      - name: leadership
+        label: Leadership
+
+        file: src/content/leadership.json
+
+        fields:
+          - label: Leadership
+            name: leadership
+            widget: list
+
+            summary: "{{fields.name}} — {{fields.role}}"
+
+            fields:
+              - label: Category
+                name: category
+                widget: select
+
+                options:
+                  - label: Program Instructors
+                    value: program-instructors
+
+                  - label: Cadet Leadership
+                    value: cadet-leadership
+
+              - label: Photo
+                name: image
+                widget: image
+
+              - label: Name
+                name: name
+                widget: string
+
+              - label: Role
+                name: role
+                widget: string
+
+              - label: Summary
+                name: summary
+                widget: text
