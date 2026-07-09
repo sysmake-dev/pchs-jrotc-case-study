@@ -1,200 +1,202 @@
-[
-  {
-    "category": "leadership",
-    "title": "Leadership Lab",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets participating in a leadership planning exercise."
-  },
-  {
-    "category": "leadership",
-    "title": "Leadership Practice",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets participating in a practice-leadership exercise."
-  },
-  {
-    "category": "leadership",
-    "title": "Staff Planning Meeting",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadet staff memebrs discussing upcoming battalion activities."
-  },
-  {
-    "category": "leadership",
-    "title": "Classroom Instruction",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets participating in classroom leadership instruction."
-  },
-  {
-    "category": "leadership",
-    "title": "Leadership Workshop",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets participating in a leadership workshop focused on communication and decision-making."
-  },
-  {
-    "category": "leadership",
-    "title": "Mentorship Session",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Senior cadets mentoring younger cadets during a leadership development session."
-  },
-  {
-    "category": "leadership",
-    "title": "Command Briefing",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadet leaders conducting a briefing before the start of a battalion activity."
-  },
-  {
-    "category": "drill",
-    "title": "Drill Competition",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets competing in the annual drill exhibition."
-  },
-  {
-    "category": "drill",
-    "title": "Regulation Drill Competition",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets performing a regulation drill competition."
-  },
-  {
-    "category": "drill",
-    "title": "Exhibition Drill Routine",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets performing an exhibition drill routine."
-  },
-  {
-    "category": "drill",
-    "title": "Competition Awards",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Drill team members receiving awards following a competition."
-  },
-  {
-    "category": "color-guard",
-    "title": "Color Guard",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets in color guard."
-  },
-  {
-    "category": "color-guard",
-    "title": "Football Game Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard presenting the national colors before a football game."
-  },
-  {
-    "category": "color-guard",
-    "title": "Veterans Day Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard participating in a Veterans Day ceremony."
-  },
-  {
-    "category": "color-guard",
-    "title": "School Assembly",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard presenting the colors during a school assembly."
-  },
-  {
-    "category": "color-guard",
-    "title": "Memorial Day Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard presenting the national colors during a Memorial Day ceremony."
-  },
-  {
-    "category": "color-guard",
-    "title": "Competition Performance",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard performing during a regional JROTC competition."
-  },
-  {
-    "category": "color-guard",
-    "title": "Community Parade",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The Color Guard marching in a local community parade while carrying the national colors."
-  },
-  {
-    "category": "community-service",
-    "title": "Community Service Project",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets working on their service learning projects."
-  },
-  {
-    "category": "community-service",
-    "title": "Park Cleanup",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets volunteering during a local community cleanup project."
-  },
-  {
-    "category": "community-service",
-    "title": "Food Drive",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets organizing donated food during a community food drive."
-  },
-  {
-    "category": "community-service",
-    "title": "Holiday Volunteer Event",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets assisting community members during a holiday volunteer event."
-  },
-  {
-    "category": "awards",
-    "title": "Battalion Ribbons & Awards Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets being awarded ribbons and medals."
-  },
-  {
-    "category": "awards",
-    "title": "Promotion Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets receiving promotions during a formal ceremony."
-  },
-  {
-    "category": "awards",
-    "title": "Leadership Awards",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets recognized for outstanding leadership and achievement."
-  },
-  {
-    "category": "awards",
-    "title": "Challange Coin Ceremony",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Distinguished cadets receiving challange coins for their excellence and performance."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Battalion Life",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Two cadets smiling in their uniform as they complete school work."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Morning Formation",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets assembled on the bus ramp for morning formation."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Team Building Activity",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets participating in a team-building exercise."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Leadership in Action",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadet leaders coordinating activities during a training exercise."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Uniform Inspection",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets standing in formation during a routine uniform inspection."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Classroom Teamwork",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "Cadets working together during a classroom leadership activity."
-  },
-  {
-    "category": "battalion-life",
-    "title": "Battalion Formation",
-    "image": "../assets/gallery/leadership/example-gallery-image.png",
-    "alt": "The battalion assembled in formation before the start of a school event."
-  }
-]
+{
+  "gallery": [
+    {
+      "category": "leadership",
+      "title": "Leadership Lab",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets participating in a leadership planning exercise."
+    },
+    {
+      "category": "leadership",
+      "title": "Leadership Practice",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets participating in a practice-leadership exercise."
+    },
+    {
+      "category": "leadership",
+      "title": "Staff Planning Meeting",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadet staff members discussing upcoming battalion activities."
+    },
+    {
+      "category": "leadership",
+      "title": "Classroom Instruction",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets participating in classroom leadership instruction."
+    },
+    {
+      "category": "leadership",
+      "title": "Leadership Workshop",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets participating in a leadership workshop focused on communication and decision-making."
+    },
+    {
+      "category": "leadership",
+      "title": "Mentorship Session",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Senior cadets mentoring younger cadets during a leadership development session."
+    },
+    {
+      "category": "leadership",
+      "title": "Command Briefing",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadet leaders conducting a briefing before the start of a battalion activity."
+    },
+    {
+      "category": "drill",
+      "title": "Drill Competition",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets competing in the annual drill exhibition."
+    },
+    {
+      "category": "drill",
+      "title": "Regulation Drill Competition",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets performing a regulation drill competition."
+    },
+    {
+      "category": "drill",
+      "title": "Exhibition Drill Routine",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets performing an exhibition drill routine."
+    },
+    {
+      "category": "drill",
+      "title": "Competition Awards",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Drill team members receiving awards following a competition."
+    },
+    {
+      "category": "color-guard",
+      "title": "Color Guard",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets in color guard."
+    },
+    {
+      "category": "color-guard",
+      "title": "Football Game Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard presenting the national colors before a football game."
+    },
+    {
+      "category": "color-guard",
+      "title": "Veterans Day Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard participating in a Veterans Day ceremony."
+    },
+    {
+      "category": "color-guard",
+      "title": "School Assembly",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard presenting the colors during a school assembly."
+    },
+    {
+      "category": "color-guard",
+      "title": "Memorial Day Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard presenting the national colors during a Memorial Day ceremony."
+    },
+    {
+      "category": "color-guard",
+      "title": "Competition Performance",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard performing during a regional JROTC competition."
+    },
+    {
+      "category": "color-guard",
+      "title": "Community Parade",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The Color Guard marching in a local community parade while carrying the national colors."
+    },
+    {
+      "category": "community-service",
+      "title": "Community Service Project",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets working on their service learning projects."
+    },
+    {
+      "category": "community-service",
+      "title": "Park Cleanup",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets volunteering during a local community cleanup project."
+    },
+    {
+      "category": "community-service",
+      "title": "Food Drive",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets organizing donated food during a community food drive."
+    },
+    {
+      "category": "community-service",
+      "title": "Holiday Volunteer Event",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets assisting community members during a holiday volunteer event."
+    },
+    {
+      "category": "awards",
+      "title": "Battalion Ribbons & Awards Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets being awarded ribbons and medals."
+    },
+    {
+      "category": "awards",
+      "title": "Promotion Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets receiving promotions during a formal ceremony."
+    },
+    {
+      "category": "awards",
+      "title": "Leadership Awards",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets recognized for outstanding leadership and achievement."
+    },
+    {
+      "category": "awards",
+      "title": "Challenge Coin Ceremony",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Distinguished cadets receiving challenge coins for their excellence and performance."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Battalion Life",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Two cadets smiling in their uniform as they complete school work."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Morning Formation",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets assembled on the bus ramp for morning formation."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Team Building Activity",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets participating in a team-building exercise."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Leadership in Action",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadet leaders coordinating activities during a training exercise."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Uniform Inspection",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets standing in formation during a routine uniform inspection."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Classroom Teamwork",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "Cadets working together during a classroom leadership activity."
+    },
+    {
+      "category": "battalion-life",
+      "title": "Battalion Formation",
+      "image": "../assets/gallery/leadership/example-gallery-image.png",
+      "alt": "The battalion assembled in formation before the start of a school event."
+    }
+  ]
+}
