@@ -1,44 +1,46 @@
-[
-  {
-    "category": "program-instructors",
-    "image": "../assets/images/400x500.png",
-    "name": "Colonel Sarah Mitchell",
-    "role": "Senior Army Instructor",
-    "summary": "Colonel Mitchell brings years of leadership experience and is committed to helping students grow into responsible and confident leaders."
-  },
-  {
-    "category": "program-instructors",
-    "image": "../assets/images/400x500.png",
-    "name": "Major Robert Martinez",
-    "role": "Army Instructor",
-    "summary": "Major Martinez works closely with cadets to develop leadership skills, teamwork, and professional responsibility."
-  },
-  {
-    "category": "program-instructors",
-    "image": "../assets/images/400x500.png",
-    "name": "First Sergeant Jim Johnson",
-    "role": "Army Instructor",
-    "summary": "First Sergeant Jim Johnson brings over fifteen years of army service to cadets to build their character into responsible young adults."
-  },
-  {
-    "category": "cadet-leadership",
-    "image": "../assets/images/400x500.png",
-    "name": "Jane Perez",
-    "role": "Brigade Commander",
-    "summary": "Leads the cadet corps and oversees major program activities."
-  },
-  {
-    "category": "cadet-leadership",
-    "image": "../assets/images/400x500.png",
-    "name": "John Smith",
-    "role": "Brigade Command Sergeant Major",
-    "summary": "Assists the Brigade Commander and manages program operations."
-  },
-  {
-    "category": "cadet-leadership",
-    "image": "../assets/images/400x500.png",
-    "name": "Adam Watts",
-    "role": "1st Battalion Commander",
-    "summary": "Responsible for all battalion activities, setting goals, managing promotions, and conducting inspections."
-  }
-]
+{
+  "leadership": [
+    {
+      "category": "program-instructors",
+      "image": "../assets/images/400x500.png",
+      "name": "Colonel Sarah Mitchell",
+      "role": "Senior Army Instructor",
+      "summary": "Colonel Mitchell brings years of leadership experience and is committed to helping students grow into responsible and confident leaders."
+    },
+    {
+      "category": "program-instructors",
+      "image": "../assets/images/400x500.png",
+      "name": "Major Robert Martinez",
+      "role": "Army Instructor",
+      "summary": "Major Martinez works closely with cadets to develop leadership skills, teamwork, and professional responsibility."
+    },
+    {
+      "category": "program-instructors",
+      "image": "../assets/images/400x500.png",
+      "name": "First Sergeant Jim Johnson",
+      "role": "Army Instructor",
+      "summary": "First Sergeant Jim Johnson brings over fifteen years of army service to cadets to build their character into responsible young adults."
+    },
+    {
+      "category": "cadet-leadership",
+      "image": "../assets/images/400x500.png",
+      "name": "Jane Perez",
+      "role": "Brigade Commander",
+      "summary": "Leads the cadet corps and oversees major program activities."
+    },
+    {
+      "category": "cadet-leadership",
+      "image": "../assets/images/400x500.png",
+      "name": "John Smith",
+      "role": "Brigade Command Sergeant Major",
+      "summary": "Assists the Brigade Commander and manages program operations."
+    },
+    {
+      "category": "cadet-leadership",
+      "image": "../assets/images/400x500.png",
+      "name": "Adam Watts",
+      "role": "1st Battalion Commander",
+      "summary": "Responsible for all battalion activities, setting goals, managing promotions, and conducting inspections."
+    }
+  ]
+}
