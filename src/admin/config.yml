@@ -119,7 +119,7 @@ collections:
             name: leadership
             widget: list
 
-            summary: "{{fields.name}} — {{fields.role}}"
+            summary: "{{fields.title}} — {{fields.role}}"
 
             fields:
               - label: Category
@@ -148,3 +148,44 @@ collections:
               - label: Summary
                 name: summary
                 widget: text
+
+  - name: gallery
+    label: Gallery
+
+    files:
+      - name: gallery
+        label: Gallery
+
+        file: src/content/gallery.json
+
+        fields:
+          - label: Gallery Images
+            name: gallery
+            widget: list
+
+            summary: "{{fields.title}}"
+
+            fields:
+              - label: Category
+                name: category
+                widget: select
+
+                options:
+                  - { label: Leadership, value: leadership }
+                  - { label: Drill, value: drill }
+                  - { label: Color Guard, value: color-guard }
+                  - { label: Community Service, value: community-service }
+                  - { label: Awards, value: awards }
+                  - { label: Battalion Life, value: battalion-life }
+
+              - label: Title
+                name: title
+                widget: string
+
+              - label: Image
+                name: image
+                widget: image
+
+              - label: Alt Text
+                name: alt
+                widget: string
