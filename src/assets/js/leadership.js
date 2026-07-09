@@ -1,5 +1,5 @@
 async function loadLeadership() {
-  const response = await fetch("../../content/leadership.json");
+  const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/leadership.json");
 
   const data = await response.json();
   const leadership = data.leadership;
