@@ -1,6 +1,8 @@
 async function loadResources() {
-  const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/resources.json");
-  const resources = await response.json();
+  const response = await fetch("../../content/resources.json");
+
+  const data = await response.json();
+  const resources = data.resources;
 
   renderCategory(resources, "cadet-resources");
   renderCategory(resources, "parent-resources");
