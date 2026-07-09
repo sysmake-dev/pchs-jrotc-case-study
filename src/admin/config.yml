@@ -7,7 +7,7 @@ backend:
   auth_endpoint: auth
 
 media_folder: src/assets/images/uploads
-public_folder: /src/assets/images/uploads
+public_folder: /pchs-jrotc-case-study/src/assets/images/uploads
 
 collections:
   - name: announcements
