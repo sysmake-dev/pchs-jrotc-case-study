@@ -2,39 +2,41 @@ const PAGE_SIZE = 6;
 
 async function loadGallery() {
   const response = await fetch("https://sysmake-dev.github.io/pchs-jrotc-case-study/src/content/gallery.json");
-  const gallery = await response.json();
+
+  const data = await response.json();
+  const gallery = data.gallery;
 
   const categories = [
     {
-      name: "leadership",
+      category: "leadership",
       container: "leadership-gallery",
     },
     {
-      name: "drill",
+      category: "drill",
       container: "drill-gallery",
     },
     {
-      name: "color-guard",
+      category: "color-guard",
       container: "color-guard-gallery",
     },
     {
-      name: "community-service",
+      category: "community-service",
       container: "community-service-gallery",
     },
     {
-      name: "awards",
+      category: "awards",
       container: "awards-gallery",
     },
     {
-      name: "battalion-life",
+      category: "battalion-life",
       container: "battalion-gallery",
     },
   ];
 
-  categories.forEach((category) => {
-    const images = gallery.filter((image) => image.category === category.name);
+  categories.forEach(({ category, container }) => {
+    const images = gallery.filter((image) => image.category === category);
 
-    renderCategory(category.container, images);
+    renderCategory(container, images);
   });
 }
 
@@ -50,46 +52,42 @@ function renderCategory(containerId, images) {
   function render() {
     const visibleImages = expanded ? images : images.slice(0, PAGE_SIZE);
 
-    container.innerHTML = "";
+    let html = "";
 
     visibleImages.forEach((image) => {
-      container.innerHTML += `
+      html += `
         <figure class="gallery__item">
-
           <a
             href="${image.image}"
             target="_blank"
             rel="noopener noreferrer"
           >
-
             <img
               src="${image.image}"
               alt="${image.alt}"
             >
-
           </a>
 
           <figcaption>
-
             ${image.title}
-
           </figcaption>
-
         </figure>
       `;
     });
+
+    container.innerHTML = html;
 
     if (images.length <= PAGE_SIZE) {
       button.hidden = true;
       return;
     }
 
+    button.hidden = false;
     button.textContent = expanded ? "Show Less" : "View More";
   }
 
   button.addEventListener("click", () => {
     expanded = !expanded;
-
     render();
   });
 
