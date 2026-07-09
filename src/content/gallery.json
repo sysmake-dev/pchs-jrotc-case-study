@@ -197,12 +197,6 @@
       "title": "Battalion Formation",
       "image": "../assets/gallery/leadership/example-gallery-image.png",
       "alt": "The battalion assembled in formation before the start of a school event."
-    },
-    {
-      "category": "leadership",
-      "title": "Test",
-      "image": "/src/assets/images/uploads/example-gallery-image.png",
-      "alt": "Test"
     }
   ]
 }
