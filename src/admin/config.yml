@@ -42,3 +42,35 @@ collections:
               - label: Current
                 name: current
                 widget: boolean
+  - name: events
+    label: Events
+
+    files:
+      - name: events
+        label: Events
+
+        file: src/content/events.json
+
+        fields:
+          - label: Events
+            name: events
+            widget: list
+
+            summary: "{{fields.title}}"
+
+            fields:
+              - label: Title
+                name: title
+                widget: string
+
+              - label: Date
+                name: date
+                widget: string
+
+              - label: Location
+                name: location
+                widget: string
+
+              - label: Summary
+                name: summary
+                widget: text
