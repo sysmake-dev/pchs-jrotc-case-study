@@ -92,6 +92,71 @@ p {
   text-align: center;
 }
 
+button {
+  font-size: 1.3rem;
+}
+
+.button {
+  display: inline-block;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 13px;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.button-primary {
+  color: var(--color-neutral);
+  border: 2px transparent;
+  background: var(--color-accent);
+  transition: all 0.25s ease;
+  font-size: 1.3rem;
+}
+
+.button-primary:hover {
+  border: 2px solid var(--color-secondary);
+}
+
+.button-primary:active {
+  transform: translateY(1px);
+}
+
+.button-secondary {
+  color: var(--color-neutral);
+  background-color: transparent;
+  border-color: var(--color-secondary);
+  font-size: 1.3rem;
+}
+
+.button-secondary:hover {
+  background: var(--color-accent);
+}
+
+.button-secondary:active {
+  transform: translateY(1px);
+}
+
+/* Desktops and larger screens */
+@media (min-width: 801px) {
+  .button {
+    width: auto;
+  }
+}
+
 .item__grid {
   display: flex;
   flex-wrap: wrap;
@@ -103,7 +168,7 @@ p {
 
 .item {
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   padding: 1rem;
   margin-top: 1rem;
   transition: all 0.25s ease;
@@ -117,7 +182,7 @@ p {
 .card__item {
   padding: 1rem;
   border: 2px solid var(--color-secondary);
-  border-radius: 15px;
+  border-radius: 13px;
   height: auto;
   text-align: center;
   transition: all 0.25s ease;
@@ -144,7 +209,7 @@ p {
 .profile-card__item {
   padding: 1rem;
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   height: auto;
   transition: all 0.25s ease;
   display: flex;
@@ -162,7 +227,7 @@ p {
 .profile-card__item img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 13px;
 }
 
 .profile-card__item h3 {
@@ -236,13 +301,6 @@ p {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border: 2px solid var(--color-secondary);
-}
-
-/* Desktops and larger screens */
-@media (min-width: 801px) {
-  #cta button {
-    width: 50%;
-  }
 }
 
 .dark {
@@ -412,6 +470,10 @@ p {
    ================================= */
 
 #hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -420,68 +482,40 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .hero__container {
-  margin-top: 4rem;
-}
-
-#hero h1 {
-  color: var(--color-neutral);
-}
-
-#hero p {
-  color: var(--color-neutral);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .hero__buttons {
-  margin-top: 2rem;
-}
-
-.hero__buttons button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border-radius: 999px;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-  color: var(--color-neutral);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
-}
-
-.primary-btn {
-  border: 2px solid var(--color-accent);
-  background: var(--color-accent);
-}
-
-.secondary-btn {
-  border: 2px solid var(--color-secondary);
-  background: none;
-}
-
-.hero__buttons button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  border: 2px solid var(--color-secondary);
-  cursor: pointer;
-}
-
-.secondary-btn:hover {
-  background: var(--color-accent);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* Desktops and larger screens */
 @media (min-width: 801px) {
-  #hero__about {
-    height: 90vh;
+  .hero__container {
+    transform: translateY(-3rem);
+    gap: 2.5rem;
   }
+}
 
-  .hero__buttons button {
-    width: 60%;
-  }
+#hero h2 {
+  color: var(--color-neutral);
+  font-size: 2.3rem;
+}
+
+#hero p {
+  color: var(--color-neutral);
+  font-size: 1.3rem;
 }
 
 /* ================================
@@ -495,30 +529,19 @@ p {
 
 #overview img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 13px;
 }
 
-#overview button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+.content__button {
+  text-align: center;
+}
+
+#overview a {
   color: var(--color-accent);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
 }
 
-#overview button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent);
+#overview a:hover {
   color: var(--color-neutral);
-  cursor: pointer;
 }
 
 /* Desktops and larger screens */
@@ -541,6 +564,10 @@ p {
   .overview__content {
     width: auto;
   }
+
+  #overview a {
+    float: left;
+  }
 }
 
 /* ================================
@@ -561,7 +588,7 @@ h3 {
 
 .announcement__item {
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   background: var(--color-surface-light);
   padding: 1rem;
   margin-top: 1rem;
@@ -573,51 +600,17 @@ h3 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-#announcements button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-  color: var(--color-neutral);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
-}
-
-#announcements button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent);
-  color: var(--color-neutral);
-  cursor: pointer;
-}
-
 .view-all {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 1rem;
-}
-
-.view-all a {
-  width: 100%;
 }
 
 /* Desktops and larger screens */
 @media (min-width: 801px) {
-  #announcements button {
-    width: 50%;
-  }
-
   .view-all {
     display: flex;
-  }
-
-  .view-all a {
-    text-align: center;
   }
 }
 
@@ -633,35 +626,16 @@ h3 {
   color: var(--color-primary);
 }
 
-#events button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+#events .view-all a {
   color: var(--color-accent);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
 }
 
-#events button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent);
+#events .view-all a:hover {
   color: var(--color-neutral);
-  cursor: pointer;
 }
 
 /* Desktops and larger screens */
 @media (min-width: 801px) {
-  #events button {
-    width: 50%;
-  }
-
   .view-all {
     display: flex;
   }
@@ -682,30 +656,15 @@ h3 {
 
 #teams img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 13px;
 }
 
-#teams button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+#teams a {
   color: var(--color-accent);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
 }
 
-#teams button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent);
+#teams a:hover {
   color: var(--color-neutral);
-  cursor: pointer;
 }
 
 /* Desktops and larger screens */
@@ -752,7 +711,7 @@ h3 {
 
 .link {
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   background: var(--color-surface-light);
   padding: 1rem;
   margin-top: 1rem;
@@ -787,7 +746,7 @@ h3 {
   margin-top: 1rem;
   padding: 1rem;
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   font-size: 1.2rem;
 }
 
@@ -795,27 +754,13 @@ h3 {
   margin-top: 0.25rem;
 }
 
-.contact__form button {
-  margin: 0.65rem;
-  padding: 14px 28px;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+.contact__form-submit button {
+  margin-top: 0.5rem;
   color: var(--color-accent);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
 }
 
-.contact__form button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent);
+.contact__form-submit button:hover {
   color: var(--color-neutral);
-  cursor: pointer;
 }
 
 #contact a {
@@ -832,9 +777,6 @@ h3 {
   .contact__form-submit {
     display: flex;
     justify-content: center;
-  }
-  .contact__form button {
-    width: 50%;
   }
 }
 
@@ -864,7 +806,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/about-bg.jpg");
-  height: 85vh;
+  min-height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -875,7 +817,7 @@ footer {
 /* Desktops and larger screens */
 @media (min-width: 801px) {
   #hero__about {
-    height: 55vh;
+    min-height: 55vh;
   }
 }
 
@@ -888,7 +830,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/leadership-bg.jpg");
-  height: 85vh;
+  min-height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -899,7 +841,7 @@ footer {
 /* Desktops and larger screens */
 @media (min-width: 801px) {
   #hero__leadership {
-    height: 55vh;
+    min-height: 55vh;
   }
 }
 
@@ -912,7 +854,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/teams-bg.jpg");
-  height: 85vh;
+  min-height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -923,7 +865,7 @@ footer {
 /* Desktops and larger screens */
 @media (min-width: 801px) {
   #hero__teams {
-    height: 55vh;
+    min-height: 55vh;
   }
 }
 
@@ -944,7 +886,7 @@ footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/gallery-bg.jpg");
-  height: 85vh;
+  min-height: 85vh;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
@@ -967,7 +909,7 @@ footer {
 
 .gallery__item {
   border: 2px solid var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 13px;
   background: none;
   padding: 0;
   cursor: pointer;
@@ -998,17 +940,11 @@ footer {
 
 .gallery__expand {
   margin-top: 1.5rem;
-  padding: 0.85rem 1rem;
-  width: 100%;
-  border: 2px solid var(--color-secondary);
-  border-radius: 999px;
-  background: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
   color: var(--color-accent);
-  font-family: "Inter";
-  font-size: 1.2rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
+}
+
+.gallery__expand:hover {
+  color: var(--color-neutral);
 }
 
 .gallery__expand:hover {
@@ -1049,7 +985,7 @@ footer {
 /* Desktops */
 @media (min-width: 1024px) {
   #hero__gallery {
-    height: 55vh;
+    min-height: 55vh;
   }
 
   .gallery__grid {
