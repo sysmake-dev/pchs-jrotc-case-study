@@ -262,6 +262,10 @@ button {
   }
 }
 
+.content__button {
+  text-align: center;
+}
+
 #cta {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -532,10 +536,6 @@ button {
   border-radius: 13px;
 }
 
-.content__button {
-  text-align: center;
-}
-
 #overview a {
   color: var(--color-accent);
 }
@@ -684,6 +684,10 @@ h3 {
 
   #teams img {
     border-radius: 10px;
+  }
+
+  #teams a {
+    float: left;
   }
 
   .teams__content {
