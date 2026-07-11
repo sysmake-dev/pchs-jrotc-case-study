@@ -10,7 +10,7 @@
 
 This case study explores the design and development of a structured, multi-page website for the Palmetto Coast High School Leadership Academy.
 
-Unlike traditional small business websites, this project focuses on creating a system that allows non-technical users (specifically rotating student leadership) to safely update and maintain website content over time.
+Unlike traditional small business websites, this project focuses on creating a system that allows non-technical users (specifically rotating student leadership and instructors) to safely update and maintain website content over time.
 
 The goal is to provide a stable, professional, and easy-to-manage platform that supports both external communication and internal program organization.
 
