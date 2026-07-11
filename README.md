@@ -77,4 +77,4 @@ This provides a sustainable and scalable solution for programs that rely on rota
 
 ## STATUS
 
-Implementing CMS
+Completed.
