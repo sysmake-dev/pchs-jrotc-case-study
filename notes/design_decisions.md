@@ -44,7 +44,7 @@ The green accent reflects Florida's natural environment while directly referenci
 
 ## Temporary Announcements and Events
 
-**Decision:** Treat announcements and events as temporary content rather than maintaining permanent archives.
+**Decision:** Treat announcements and events as temporary content instead of maintaining permanent archives.
 
 **Reasoning:**
 
@@ -61,7 +61,7 @@ This approach better serves cadets, parents, instructors, and prospective studen
 
 ## Activity-Based Gallery Organization
 
-**Decision:** Organize the gallery by activity rather than by school year.
+**Decision:** Organize the gallery by activity instead of by school year.
 
 **Reasoning:**
 
