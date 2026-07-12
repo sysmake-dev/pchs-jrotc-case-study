@@ -71,7 +71,7 @@ A lightweight, file-based content system is implemented to allow students to upd
 
 The final result is a structured, multi-page website that supports both public-facing communication and internal program needs.
 
-The system allows student leadership to post announcements, update events, maintain leaderhsip listings, and manage gallery content. All without risking the integrit of the site.
+The system allows student leadership to post announcements, update events, maintain leadership listings, and manage gallery content. All without risking the integrity of the site.
 
 This provides a sustainable and scalable solution for programs that rely on rotating, non-technical contributors.
 
